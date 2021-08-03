@@ -1,0 +1,71 @@
+:root{
+    --color-1 : rgb(167, 196, 188);
+    --color-2 : rgb(53, 94, 59);
+}
+.nav-container{
+    position: fixed;
+    top: 0px;
+    z-index: 1040;
+}
+/* .container-two{
+    background-color: gainsboro;
+    padding: 80px;
+} */
+
+.container-color-1{
+    background-color: var(--color-1);
+}
+
+.container-color-2{
+    background-color: var(--color-2);
+    padding: 80px;
+}
+
+.heading-xl{
+    font-size: 48px;
+}
+
+.conatiner-contact-form{
+    /* padding: 20px; */
+    padding-top: 140px;
+    max-width: 90%;
+    margin: auto;
+    
+}
+
+.conatiner-reservation-form{
+    /* padding: 20px; */
+    padding-top: 60px;
+    max-width: 90%;
+    margin: auto;
+    
+}
+.wrapper-container-form{
+    
+    background-color: var(--color-1);
+
+}
+
+.padding-top{
+    padding-top: 140px;
+}
+
+/* --color-1 : rgb(167, 196, 188); */
+
+#map{
+    width: 100%;
+    height: 700px;
+}
+
+.over-image-1{
+    margin-left: -200px;
+}
+
+@media only screen and (max-width: 992px){
+    .over-image-1{
+        margin-left: 0px;
+    }
+    
+}
+
+    
